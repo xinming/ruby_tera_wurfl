@@ -14,7 +14,7 @@ class WurflData
   end
   
   def keys
-    return @raw_data.keys
+    return @raw_data.keys.sort
   end
 end
 
