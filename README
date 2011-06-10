@@ -1,0 +1,7 @@
+A ruby wrapper for your Tera Wurfl installation.
+
+# EXAMPLE
+server = TeraWurfl.new("http://php-webservice.terawurfl.com/")
+user_agent = "NokiaN70-1/5.0609.2.0.1 Series60/2.8 Profile/MIDP-2.0 Configuration/CLDC-1.1"
+wurfl_data = server.get_user_agent(user_agent)
+puts wurfl_data.xhtml_format_as_attribute
